@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# PyInstaller build output (exe 走 GitHub Release 分发,不进仓库)
+build/
+dist/
+*.spec
+
+# 开发冒烟测试的临时输出
+_smoke*
