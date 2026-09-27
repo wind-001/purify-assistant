@@ -24,9 +24,9 @@
 
 ## 下载
 
-发布后这里会放永久固定链接(永远指向最新版):
+永久固定链接(永远指向最新版):
 
-`https://github.com/<你的用户名>/purify/releases/latest/download/Purify.exe`
+**https://github.com/wind-001/purify-assistant/releases/latest/download/Purify.exe**
 
 ## 版本历史
 
@@ -52,11 +52,10 @@ python -m venv .venv
 
 ## 发布到 GitHub Releases(给别人下载)
 
-1. 在 GitHub 新建仓库 `purify`,把源码推上去(exe 不进仓库,`.gitignore` 已排除 `dist/`)
-2. 本地打包出 `dist\Purify.exe`
-3. 仓库页面 → **Releases** → **Draft a new release** → 新建 tag(如 `v1.0.0`)→ 把 `Purify.exe` 拖进附件区 → **Publish release**
-4. 固定下载链接(永远指向最新版):
-   `https://github.com/<你的用户名>/purify/releases/latest/download/Purify.exe`
+1. 本地打包出 `dist\Purify.exe`(仓库 `wind-001/purify-assistant`)
+2. 仓库页面 → **Releases** → **Draft a new release** → 选择已有标签(如 `v1.0.0`)→ 把 `Purify.exe` 拖进附件区 → **Publish release**
+3. 固定下载链接(永远指向最新版):
+   `https://github.com/wind-001/purify-assistant/releases/latest/download/Purify.exe`
 
 ## 已知问题
 
